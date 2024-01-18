@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <div className='name'>
+      <h1>facebook</h1>
+      </div>
+      
+
+      <div className="sub-main">
+        <div className="user"><h2>Log in to facebook</h2>
+          <input type="email" placeholder='Email address or Phone number'></input>
+        </div>
+        <div className="pass">
+          <input type="password" placeholder='Password'></input>
+        </div>
+          <button className='btn'>Log in</button>
+          <div className='link'>
+            <div className='for'>
+              <a href="#" id="hyperlink">Forgotten account?</a>
+            </div>
+            <div className='sign'>
+              <a href="#" id="hyperlink">Sign up for Facebook</a>
+            </div>
+          </div>
+      </div>
     </div>
   );
-}
-
+}  
 export default App;
+

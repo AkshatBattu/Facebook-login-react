@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,79 @@
   to {
     transform: rotate(360deg);
   }
+}
+*/
+.main{
+  padding:10px;
+  margin: 0;
+  text-align: center;
+  background-color: rgb(217, 219, 219);
+}
+.name{
+  color: #1877f2;
+  font-size: 29px;
+  font-weight: bolder;
+
+}
+.sub-main{ 
+  background-color: white;
+  
+  width: 20%;
+  margin-left: 36%;
+  padding: 5%;
+  margin-top: -3%;
+}
+.user h2{
+  margin-top: -24%;
+    font-size: 23px;
+    font-weight: 300;
+    padding: 10%;
+}
+.user input{
+  padding: 6%;
+  margin-left: -28px;
+  width: 109%;
+  margin-top: -5%;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.pass input{
+  padding: 6%;
+  margin-left: -28px;
+  width: 109%;
+  margin-top: 5%;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.btn{
+  padding: 5%;
+    margin-top: 5%;
+    width: 121%;
+    margin-left: -26px;
+    color: white;
+    background-color: #1877f2;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.link{
+  display: flex;
+font-size: 13px;
+margin-left: 10%;
+margin-top: 5%;
+
+}
+.for{
+  margin-left: -19px;
+  text-decoration: none;
+color: #1877f2;
+}
+.sign{
+  margin-left: 17px;
+}
+#hyperlink{
+  text-decoration: none;
+color: #1877f2;
 }
